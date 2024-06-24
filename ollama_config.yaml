@@ -1,0 +1,13 @@
+llm:
+  provider: ollama
+  config:
+    model: "phi3:medium"
+    temperature: 0.5
+    top_p: 1
+    stream: true
+    base_url: "http://localhost:11434"
+embedder:
+  provider: ollama
+  config:
+    model: znbang/bge:large-en-v1.5-q4_k_m
+    base_url: http://localhost:11434

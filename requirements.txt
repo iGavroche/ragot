@@ -1,0 +1,2 @@
+embedchain==0.1.112
+ollama==0.2.1
